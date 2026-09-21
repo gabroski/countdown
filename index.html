@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ახალ წლამდე — 2027</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="is-entering">
+
+<div class="bg-3d" id="bg"></div>
+<div class="vignette"></div>
+
+<main class="scene">
+  <header class="intro">
+    <p class="eyebrow">countdown</p>
+    <h1 class="title">ახალ წლამდე დარჩა</h1>
+    <p class="target-date">1 იანვარი 2027 &middot; 00:00</p>
+  </header>
+
+  <section class="countdown" id="countdown" aria-live="polite" aria-atomic="true">
+
+    <div class="unit" data-unit="days">
+      <div class="cards">
+        <div class="flip-card" data-digit="0">
+          <div class="card-half card-top"><span>0</span></div>
+          <div class="card-half card-bottom"><span>0</span></div>
+          <div class="card-half flip-half flip-top"><span>0</span></div>
+          <div class="card-half flip-half flip-bottom"><span>0</span></div>
+        </div>
+        <div class="flip-card" data-digit="1">
+          <div class="card-half card-top"><span>0</span></div>
+          <div class="card-half card-bottom"><span>0</span></div>
+          <div class="card-half flip-half flip-top"><span>0</span></div>
+          <div class="card-half flip-half flip-bottom"><span>0</span></div>
+        </div>
+        <div class="flip-card" data-digit="2">
+          <div class="card-half card-top"><span>0</span></div>
+          <div class="card-half card-bottom"><span>0</span></div>
+          <div class="card-half flip-half flip-top"><span>0</span></div>
+          <div class="card-half flip-half flip-bottom"><span>0</span></div>
+        </div>
+      </div>
+      <p class="unit-label">დღე</p>
+    </div>
+
+    <div class="unit" data-unit="hours">
+      <div class="cards">
+        <div class="flip-card" data-digit="0">
+          <div class="card-half card-top"><span>0</span></div>
+          <div class="card-half card-bottom"><span>0</span></div>
+          <div class="card-half flip-half flip-top"><span>0</span></div>
+          <div class="card-half flip-half flip-bottom"><span>0</span></div>
+        </div>
+        <div class="flip-card" data-digit="1">
+          <div class="card-half card-top"><span>0</span></div>
+          <div class="card-half card-bottom"><span>0</span></div>
+          <div class="card-half flip-half flip-top"><span>0</span></div>
+          <div class="card-half flip-half flip-bottom"><span>0</span></div>
+        </div>
+      </div>
+      <p class="unit-label">საათი</p>
+    </div>
+
+    <div class="unit" data-unit="minutes">
+      <div class="cards">
+        <div class="flip-card" data-digit="0">
+          <div class="card-half card-top"><span>0</span></div>
+          <div class="card-half card-bottom"><span>0</span></div>
+          <div class="card-half flip-half flip-top"><span>0</span></div>
+          <div class="card-half flip-half flip-bottom"><span>0</span></div>
+        </div>
+        <div class="flip-card" data-digit="1">
+          <div class="card-half card-top"><span>0</span></div>
+          <div class="card-half card-bottom"><span>0</span></div>
+          <div class="card-half flip-half flip-top"><span>0</span></div>
+          <div class="card-half flip-half flip-bottom"><span>0</span></div>
+        </div>
+      </div>
+      <p class="unit-label">წუთი</p>
+    </div>
+
+    <div class="unit" data-unit="seconds">
+      <div class="cards">
+        <div class="flip-card" data-digit="0">
+          <div class="card-half card-top"><span>0</span></div>
+          <div class="card-half card-bottom"><span>0</span></div>
+          <div class="card-half flip-half flip-top"><span>0</span></div>
+          <div class="card-half flip-half flip-bottom"><span>0</span></div>
+        </div>
+        <div class="flip-card" data-digit="1">
+          <div class="card-half card-top"><span>0</span></div>
+          <div class="card-half card-bottom"><span>0</span></div>
+          <div class="card-half flip-half flip-top"><span>0</span></div>
+          <div class="card-half flip-half flip-bottom"><span>0</span></div>
+        </div>
+      </div>
+      <p class="unit-label">წამი</p>
+    </div>
+
+  </section>
+
+  <div class="finale" id="finale" hidden>
+    <h2>გილოცავ 2027 წელს! 🎉</h2>
+    <p>ახალი წელი დადგა</p>
+  </div>
+</main>
+
+<div class="confetti" id="confetti" hidden></div>
+
+<button class="motion-toggle" id="motion-toggle" type="button" aria-pressed="true" title="ანიმაციის ჩართვა / გამორთვა">
+  <span class="motion-icon" aria-hidden="true">✨</span> ანიმაცია
+</button>
+
+<script src="script.js" defer></script>
+</body>
+</html>
